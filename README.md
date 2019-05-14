@@ -8,7 +8,10 @@ Lambda functions in python for voting app
 ### Commands for MongoDB
 
 #### Install MongoDB
-- vi /etc/yum.repos.d/mongodb-org-3.0.repo
+- For MongoDB 3.0, create the below file using VI or any other editor:
+`
+vi /etc/yum.repos.d/mongodb-org-3.0.repo
+`
 - Add the following in the file
  `
   [mongodb-org-3.0]
