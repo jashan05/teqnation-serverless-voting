@@ -6,7 +6,30 @@ Lambda functions in python for voting app
 
 
 ### Commands for MongoDB
----
+
+#### Install MongoDB
+- vi /etc/yum.repos.d/mongodb-org-3.0.repo
+- Add the following in the file
+ `
+  [mongodb-org-3.0]
+  name=MongoDB Repository
+  baseurl=https://repo.mongodb.org/yum/amazon/2013.03/mongodb-org/3.0/x86_64/
+  gpgcheck=0
+  enabled=1
+`
+- Install MongoDB
+`
+sudo yum install -y mongodb-org
+`
+- Start MongoDB
+`
+sudo service mongod start
+`
+- Optionally - To ensure mongoDB starts automatically in case of reboot
+`
+sudo chkconfig mongod on
+`
+
 #### To login to MongoDB
 - mongo 
 
