@@ -1,6 +1,8 @@
 # teqnation-serverless-voting
 Lambda functions in python for voting app
 
+## Architectural diagram of the application
+![Alt text](images/Capture.PNG?raw=true "Title")
 
 ## Download the dependencies for these lambda functions while using them.
 
